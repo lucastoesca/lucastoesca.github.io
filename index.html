@@ -3,41 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Buen Sabor</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        header, footer { background: #333; color: white; padding: 10px 20px; text-align: center; }
-        nav { background: #444; padding: 10px 20px; text-align: center; }
-        nav a { color: white; margin: 0 10px; text-decoration: none; }
-        section { margin: 20px; padding: 20px; background: white; }
-        footer { font-size: 0.8em; }
-    </style>
+    <title>Clamor - Cocina Ancestral</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Restaurante Buen Sabor</h1>
+        <img src="logotipo_blanco_2.png" alt="Logotipo del Restaurante" class="logo">
+        <p class="slogan">Cocina Chilena Endémica Ancestral</p>
     </header>
     <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#menu">Menú</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-    <section id="inicio">
-        <h2>Bienvenidos a Buen Sabor</h2>
-        <p>Disfrute de lo mejor de la cocina casera y los platos internacionales elaborados con los ingredientes más frescos.</p>
-    </section>
-    <section id="menu">
-        <h2>Nuestro Menú Destacado</h2>
         <ul>
-            <li>Paella Marinera</li>
-            <li>Ensalada César</li>
-            <li>Tacos de Cochinita Pibil</li>
+            <li><a href="#menu">Menú del Día</a></li>
+            <li><a href="#desayuno">Desayuno</a></li>
+            <li><a href="#cafeteria">Cafetería</a></li>
+            <li><a href="#tortas">Pastelería</a></li>
+            <li><a href="#bar">Bodega y Bar</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
         </ul>
-    </section>
+    </nav>
+    <main>
+        <section id="menu">
+            <div class="menu">
+                <span class="menu-title"><strong>Menú del día</strong></span>
+                <span class="menu-price">$13.500</span>
+            </div>
+            <h3>Entradas</h3>
+            <ul>
+                <li><strong>Palta Reina</strong> - Descripción</li>
+                <li><strong>Ensalada Clamor</strong> - Descripción</li>
+            </ul>
+            <h3>Platos de Fondo</h3>
+            <ul>
+                <li><strong>Pesca del día con papas nativas</strong> - Descripción.</li>
+                <li><strong>Bistec a lo pobre</strong> - Descripción.</li>
+            </ul>
+            <h3>Postres</h3>
+            <ul>
+                <li><strong>Torta de Hojarasca Manjar</strong> - Descripción.</li>
+                <li><strong>Torta de Ciruela Canela</strong> - Descripción.</li>
+                <li><strong>Torta de Zanahoria</strong> - Descripción.</li>
+            </ul>
+        </section>
+        <section id="desayuno">
+            <h2>Desayuno</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Paila de Huevo</strong> - Con tortilla de rescoldo y/o pan amasado.</span>
+                        <span class="product-price">$3.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Pan Amasado</strong> - Descripción.</span>
+                        <span class="product-price">$500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Tortillas de Rescoldo</strong> - Descripción.</span>
+                        <span class="product-price">$1.000</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Porción de palta</strong> - Descripción.</span>
+                        <span class="product-price">$1.500</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="cafeteria">
+            <h2>Cafetería</h2>
+            <ul>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single cafe-sub">Simple</span>
+                            <span class="product-price-doble cafe-sub">Doble</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Espresso</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$1.400</span>
+                            <span class="product-price-doble">$1.700</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Americano</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$1.900</span>
+                            <span class="product-price-doble">$2.200</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Capuccino</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$1.900</span>
+                            <span class="product-price-doble">$2.200</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Latte</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$2.200</span>
+                            <span class="product-price-doble">$2.500</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Cortado</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$1.600</span>
+                            <span class="product-price-doble">$1.900</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Mocaccino</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$2.300</span>
+                            <span class="product-price-doble">$2.600</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Infusión/Té</strong></span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$1.300</span>
+                            <span class="product-price-doble">-</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Café de Trigo</strong> - Nuez-Caramelo</span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$2.500</span>
+                            <span class="product-price-doble">-</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Café de Trigo</strong> - Avellana-Caramelo</span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$2.500</span>
+                            <span class="product-price-doble">-</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-cafe">
+                        <span class="product-name"><strong>Café de Trigo</strong> - Trufas</span>
+                        <div class="prices-cafe">
+                            <span class="product-price-single">$2.500</span>
+                            <span class="product-price-doble">-</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>        
+        </section>
+        <section id="tortas">
+            <h2>Pastelería</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Torta de Hojarasca Manjar</strong> - Descripción.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Torta de Ciruela Canela</strong> - Descripción.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Torta de Zanahoria</strong> - Descripción.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="bar">
+            <h2>Bodega y Bar</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Copa de Vino</strong> - Marca 1.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Copa de Vino</strong> - Marca 2.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Pisco Sour</strong> - La Pizka</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <ul>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Jugo de Frutas Naturales</strong> - Hechos con frutas frescas de la estación.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Coca-Cola</strong> - Clásico cóctel chileno hecho con pisco, limón y azúcar.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="product">
+                        <span class="product-name"><strong>Coca-Cola Zero</strong> - Hechos con frutas frescas de la estación.</span>
+                        <span class="product-price">$2.500</span>
+                    </div>
+                </li>
+
+
+            </ul>
+        </section>
+    </main>
     <footer>
-        <p>© 2024 Restaurante Buen Sabor. Todos los derechos reservados.</p>
-        <p>Visítanos en Calle Falsa 123, Ciudad Ficticia</p>
+        <p>Lunes a viernes de 08:00 a 16:00 hrs.</p>
+        <p>Tenderini 159, Santiago, RM.</p>
+        <p>&copy; 2024 Restaurante Ancestral.<br>Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
