@@ -1,0 +1,171 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color:  white;
+    color: #1b4883;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #1b4883;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+main {
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    min-width: 50%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #1b4883;
+    padding-bottom: 0.5rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    color: #2d80e9;
+    padding-top: 1rem;
+    font-weight: lighter;
+}
+
+.slogan {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #1b4883;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+
+/* Sección Menpu del Día*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1b4883;
+    padding-bottom: 0.5rem;
+    
+}
+
+.menu-title {
+    font-size: 1.5em;
+}
+
+.menu-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+/* Sección Cafetería */
+
+.cafeteria-section {
+    padding: 20px;
+    border: 1px solid #ddd; 
+}
+
+.product-cafe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-cafe {
+    flex: 1; /* Toma todo el espacio disponible */
+}
+
+.prices-cafe {
+    display: flex;
+    justify-content: space-between;
+    width: 150px; /* Ajusta el ancho según sea necesario */
+}
+
+.product-price-single, .product-price-doble {
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.cafe-sub {
+    color: #2d80e9;
+    font-weight: lighter;
+}
