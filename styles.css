@@ -38,13 +38,14 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding-top: 10rem;
 }
 
 nav ul li a:hover {
@@ -71,9 +72,10 @@ h2 {
 }
 
 h3 {
-    color: #2d80e9;
+    color: rgb(38, 0, 255);
     padding-top: 1rem;
     font-weight: lighter;
+    font-size: smaller;
 }
 
 .slogan {
@@ -168,4 +170,8 @@ footer {
 .cafe-sub {
     color: #2d80e9;
     font-weight: lighter;
+}
+
+#cafeteria {
+    margin-top: -3rem;
 }
