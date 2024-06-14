@@ -114,7 +114,6 @@ footer {
     font-weight: bold;
 }
 
-
 /* Sección Menpu del Día*/
 
 .menu {
@@ -152,13 +151,13 @@ footer {
 }
 
 .product-cafe {
-    flex: 1; /* Toma todo el espacio disponible */
+    flex: 1;
 }
 
 .prices-cafe {
     display: flex;
     justify-content: space-between;
-    width: 150px; /* Ajusta el ancho según sea necesario */
+    width: 150px;
 }
 
 .product-price-single, .product-price-doble {
