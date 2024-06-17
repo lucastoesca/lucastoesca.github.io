@@ -159,12 +159,12 @@ footer {
 .prices-cafe {
     display: flex;
     justify-content: space-between;
-    width: 130px;
+    width: 150px;
 }
 
 .product-price-single, .product-price-doble {
     text-align: right;
-    margin-left: 10px;
+    margin-left: 30px;
     font-weight: bold;
 }
 
