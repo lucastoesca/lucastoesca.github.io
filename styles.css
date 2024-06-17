@@ -159,7 +159,7 @@ footer {
 .prices-cafe {
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 130px;
 }
 
 .product-price-single, .product-price-doble {
